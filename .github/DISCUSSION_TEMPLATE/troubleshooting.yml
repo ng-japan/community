@@ -2,15 +2,15 @@ name: "トラブルシューティング"
 title: "<title>"
 labels: []
 body:
-- type: textarea
-  attributes:
-    label: 本文
-    description: "できるだけ詳細な説明をお願いします。再現手順やエラーメッセージなどがあると助かります。"
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: "ng version の出力結果"
-    description: "Angular CLI を使っている場合は ng version の出力結果を貼り付けてください。"
-  validations:
-    required: false
+  - type: textarea
+    attributes:
+      label: 本文
+      description: "できるだけ詳細な説明をお願いします。再現手順やエラーメッセージなどがあると助かります。"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "ng version の出力結果"
+      description: "Angular CLI を使っている場合は ng version の出力結果を貼り付けてください。"
+    validations:
+      required: false
