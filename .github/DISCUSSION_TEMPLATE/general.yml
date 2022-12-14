@@ -1,9 +1,0 @@
-title: "<title>"
-labels: []
-body:
-  - type: textarea
-    attributes:
-      label: "本文"
-    validations:
-      required: true
-
