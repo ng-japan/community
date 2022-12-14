@@ -1,10 +1,9 @@
-name: "トラブルシューティング"
 title: "<title>"
 labels: []
 body:
   - type: textarea
     attributes:
-      label: 本文
+      label: "本文"
       description: "できるだけ詳細な説明をお願いします。再現手順やエラーメッセージなどがあると助かります。"
     validations:
       required: true
